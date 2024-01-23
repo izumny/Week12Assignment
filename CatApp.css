@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("cat2.jpeg");
+}
+
+ h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    border-bottom: 2px solid rgb(5, 0, 0);
+    padding-bottom: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+    
+  
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.addBtn,
+form button{
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.addBtn a{
+    text-decoration: none;
+    color:black;
+}
+
+.addBtn:hover,
+.addBtn:hover a,
+form button:hover{
+    background-color: black;
+    color:white !important;
+    transform: scale(0.95);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+thead{
+    background-color: #4CAF50;
+    color:white;
+    border-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    border-bottom: 1ps solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+td{
+    background-color: white;
+}
+
+tr button{
+    background-color: red;
+    color:white;
+    border: none;
+    padding: 5px 10px;
+
+
+}
+tr button:hover{
+    background-color: rgb(252, 69, 69);
+    transform: scale(0.9);
+}
+
+
+/* Add Cat Form styles */
+.add-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-container form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    gap:10px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+}
+
+form input,
+select
+
+{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+select{
+    width: 440px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
